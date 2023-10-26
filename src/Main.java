@@ -3,6 +3,8 @@ import builder.DemoBuilder;
 import factory_method.DemoFactoryMethod;
 import prototype.DemoPrototype;
 import singleton.DemoSingletonSingleThread;
+import singleton.singleton_multithreads.DemoSingletonMultiThread;
+import singleton.thread_safe_singleton_lazy_loding.DemoThreadSaveSingletonLazyLoading;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,14 +14,17 @@ public class Main {
         DemoPrototype prototype=new DemoPrototype();
         DemoSingletonSingleThread demoSingletonSingleThread=new DemoSingletonSingleThread();
         DemoSingletonSingleThread singleton=new DemoSingletonSingleThread();
+        DemoSingletonMultiThread singletonMultiThread=new DemoSingletonMultiThread();
+        DemoThreadSaveSingletonLazyLoading demoThreadSaveSingletonLazyLoading=new DemoThreadSaveSingletonLazyLoading();
 
 //        factory_method_demo.testFactoryMethod();
 //        abstract_factory.testAbstractFactory();
 //            builder_pattern.testBuilder();
 //            prototype.testDemoPrototype();
 //                prototype.testDemoPrototypeRegistery();
-        singleton.testDemoSingletonSingleThread();
-
+//        singleton.testDemoSingletonSingleThread();
+//        singletonMultiThread.testDemoSingletonMultiThread();
+        demoThreadSaveSingletonLazyLoading.testThreadSaveSingletonLazyLoading();
 
     }
 }

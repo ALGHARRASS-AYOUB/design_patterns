@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42ff3962-b457-4c6d-9e3c-def41f4166bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/prototype/BundledShapeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/DemoSingletonSingleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/resources/img.png" afterDir="false" />
+    <list default="true" id="42ff3962-b457-4c6d-9e3c-def41f4166bc" name="Changes" comment="au cours singleton">
+      <change afterPath="$PROJECT_DIR$/src/singleton/singleton_multithreads/DemoSingletonMultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/singleton_multithreads/SingletonMultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/thread_safe_singleton_lazy_loding/DemoThreadSaveSingletonLazyLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/thread_safe_singleton_lazy_loding/ThreadSaveSingletonLazyLoading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype/DemoPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/DemoPrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton/DemoSingletonSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/DemoSingletonSingleThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +77,17 @@
       <updated>1698245373427</updated>
       <workItem from="1698245374422" duration="13389000" />
       <workItem from="1698259003307" duration="152000" />
-      <workItem from="1698280271755" duration="5366000" />
+      <workItem from="1698280271755" duration="5453000" />
+      <workItem from="1698338861451" duration="2656000" />
     </task>
+    <task id="LOCAL-00001" summary="au cours singleton">
+      <created>1698286351174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698286351174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="au cours singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="au cours singleton" />
   </component>
 </project>

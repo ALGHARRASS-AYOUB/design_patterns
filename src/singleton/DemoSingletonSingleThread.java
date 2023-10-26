@@ -10,5 +10,7 @@ public class DemoSingletonSingleThread {
         Singleton anotherSingleton = Singleton.getInstance("BAR");
         System.out.println(singleton.getName());
         System.out.println(anotherSingleton.getName());
+        System.out.print("singleton==anotherSingleton -> " );
+        System.out.println(singleton==anotherSingleton);
     }
 }

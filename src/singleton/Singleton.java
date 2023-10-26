@@ -6,15 +6,17 @@ public class Singleton {
     private String name;
 
     // Private constructor to prevent external instantiation
-    private Singleton() {
+    private Singleton(String str) {
         // Initialization code, if needed
+        name=str;
+
     }
 
     // Public method to provide access to the single instance
     public static Singleton getInstance(String s) {
         // Lazy initialization: create the instance when it's first requested
         if (instance == null) {
-            instance = new Singleton();
+            instance = new Singleton(s);
         }
         return instance;
     }
