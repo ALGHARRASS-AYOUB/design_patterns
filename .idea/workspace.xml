@@ -5,57 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ff3962-b457-4c6d-9e3c-def41f4166bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creation_pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/DemoAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/MacosButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/MacosCheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/MacosFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/WindowsCheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/WindowsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_factory/resources/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/CarManual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/CarManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Compenents/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Compenents/GPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Compenents/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Compenents/TripComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/DemoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/resources/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/DemoFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/Dialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/HTMLButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/HTMLDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/WindowButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/WindowDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method/resources/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/DemoPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/resources/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/resources/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/BundledShapeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/DemoSingletonSingleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/resources/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/DemoPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/DemoPrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -119,6 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1698245373427</updated>
       <workItem from="1698245374422" duration="13389000" />
+      <workItem from="1698259003307" duration="152000" />
+      <workItem from="1698280271755" duration="5366000" />
     </task>
     <servers />
   </component>
