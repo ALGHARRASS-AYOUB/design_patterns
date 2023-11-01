@@ -5,32 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ff3962-b457-4c6d-9e3c-def41f4166bc" name="Changes" comment="au cours singleton">
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Adapter/DemoAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Adapter/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Adapter/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Adapter/SquarePeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Adapter/SquarePegAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Adapter/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Adapter/resources/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/AdvancedRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/BasicRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/DemoBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/Remote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Bridge/resources/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/BaseShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/CompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/DemoComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/Dot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/ImageEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Composite/resources/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/CompressionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/DataSourceDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/DemoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/FileDataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -59,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hpi52/spring-apps/demo/creation_pattern/creation_pattern/src/structural_pattern",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hpi52/spring-apps/demo/creation_pattern/creation_pattern/src/structural_pattern&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -101,7 +81,8 @@
       <workItem from="1698280271755" duration="5453000" />
       <workItem from="1698338861451" duration="2866000" />
       <workItem from="1698662586590" duration="330000" />
-      <workItem from="1698772636831" duration="8512000" />
+      <workItem from="1698772636831" duration="8664000" />
+      <workItem from="1698871077427" duration="3517000" />
     </task>
     <task id="LOCAL-00001" summary="au cours singleton">
       <created>1698286351174</created>

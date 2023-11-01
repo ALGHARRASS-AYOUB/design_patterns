@@ -8,6 +8,7 @@ import singleton.singleton_multithreads.DemoSingletonMultiThread;
 import singleton.thread_safe_singleton_lazy_loding.DemoThreadSaveSingletonLazyLoading;
 import structural_pattern.Bridge.DemoBridge;
 import structural_pattern.Composite.DemoComposite;
+import structural_pattern.Decorator.DemoDecorator;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +23,7 @@ public class Main {
         DemoAdapter demoAdapter=new DemoAdapter();
         DemoBridge demoBridge=new DemoBridge();
         DemoComposite demoComposite=new DemoComposite();
+        DemoDecorator demoDecorator=new DemoDecorator();
 
 //        factory_method_demo.testFactoryMethod();
 //        abstract_factory.testAbstractFactory();
@@ -35,8 +37,8 @@ public class Main {
 
 //        demoBridge.testDemoBridge();
 
-        demoComposite.testDemoComposite();
-
+//        demoComposite.testDemoComposite();
+          demoDecorator.testDemoDecorator();
 
     }
 }
