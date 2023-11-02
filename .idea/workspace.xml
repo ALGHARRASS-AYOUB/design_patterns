@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ff3962-b457-4c6d-9e3c-def41f4166bc" name="Changes" comment="au cours singleton">
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/CompressionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/DataSourceDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/DemoDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/EncryptionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Decorator/FileDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/AudioMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/BitrateReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/CodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/DemoFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/MPEG4CompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/OggCompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/VideoConversionFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/VideoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/resources/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Facade/resources/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/DemoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/ThirdPartyYouTubeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/ThirdPartyYouTubeLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/YouTubeCacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/YouTubeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/YouTubeDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/resources/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_pattern/Proxy/resources/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -54,6 +68,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="structural_pattern.Proxy" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -82,7 +101,8 @@
       <workItem from="1698338861451" duration="2866000" />
       <workItem from="1698662586590" duration="330000" />
       <workItem from="1698772636831" duration="8664000" />
-      <workItem from="1698871077427" duration="3517000" />
+      <workItem from="1698871077427" duration="3759000" />
+      <workItem from="1698958354523" duration="3594000" />
     </task>
     <task id="LOCAL-00001" summary="au cours singleton">
       <created>1698286351174</created>

@@ -9,6 +9,8 @@ import singleton.thread_safe_singleton_lazy_loding.DemoThreadSaveSingletonLazyLo
 import structural_pattern.Bridge.DemoBridge;
 import structural_pattern.Composite.DemoComposite;
 import structural_pattern.Decorator.DemoDecorator;
+import structural_pattern.Facade.DemoFacade;
+import structural_pattern.Proxy.DemoProxy;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +26,8 @@ public class Main {
         DemoBridge demoBridge=new DemoBridge();
         DemoComposite demoComposite=new DemoComposite();
         DemoDecorator demoDecorator=new DemoDecorator();
+        DemoFacade demoFacade=new DemoFacade();
+        DemoProxy demoProxy=new DemoProxy();
 
 //        factory_method_demo.testFactoryMethod();
 //        abstract_factory.testAbstractFactory();
@@ -38,7 +42,8 @@ public class Main {
 //        demoBridge.testDemoBridge();
 
 //        demoComposite.testDemoComposite();
-          demoDecorator.testDemoDecorator();
-
+//          demoDecorator.testDemoDecorator();
+//            demoFacade.testDemoFacade();
+            demoProxy.testDemoProxy();
     }
 }
