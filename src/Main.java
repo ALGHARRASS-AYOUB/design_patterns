@@ -10,6 +10,7 @@ import structural_pattern.Bridge.DemoBridge;
 import structural_pattern.Composite.DemoComposite;
 import structural_pattern.Decorator.DemoDecorator;
 import structural_pattern.Facade.DemoFacade;
+import structural_pattern.Flyweight.DemoFlyweight;
 import structural_pattern.Proxy.DemoProxy;
 
 public class Main {
@@ -28,6 +29,7 @@ public class Main {
         DemoDecorator demoDecorator=new DemoDecorator();
         DemoFacade demoFacade=new DemoFacade();
         DemoProxy demoProxy=new DemoProxy();
+        DemoFlyweight demoFlyweight=new DemoFlyweight();
 
 //        factory_method_demo.testFactoryMethod();
 //        abstract_factory.testAbstractFactory();
@@ -44,6 +46,7 @@ public class Main {
 //        demoComposite.testDemoComposite();
 //          demoDecorator.testDemoDecorator();
 //            demoFacade.testDemoFacade();
-            demoProxy.testDemoProxy();
+//            demoProxy.testDemoProxy();
+            demoFlyweight.testDemoFleight();
     }
 }
